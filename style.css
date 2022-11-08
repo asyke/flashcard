@@ -1,0 +1,90 @@
+html {
+  font-family: roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  padding: 15px;
+  background-color: rgb(240, 240, 240);
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+}
+
+.qBox {
+  position: relative;
+  border: 1px coral solid;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px 0 15px 10px;
+  display: none;
+}
+
+.erBox {
+  border: none;
+  width: fit-content;
+  padding: 10px 45px 10px 15px;
+  border-radius: 10px;
+  margin: 5px 0 5px 0;
+  display: none;
+  background-color: pink;
+  color: rgb(17, 16, 16);
+  font-size: 0.8rem;
+}
+
+
+
+.save {
+  background: transparent;
+  border: #297373 2px solid;
+  padding: 5px 55px;
+  border-radius: 5px;
+  color: #297373;
+  cursor: pointer;
+  margin: 15px 0 0;
+
+}
+
+
+#btn {
+  border: coral 2px solid;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: coral;
+  cursor: pointer;
+  margin: 15px 0 15px 10px;
+  display: block;
+}
+
+textarea {
+  margin: 10px 0;
+  padding: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#closeIcon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: coral;
+}
+
+#closeIcon:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
